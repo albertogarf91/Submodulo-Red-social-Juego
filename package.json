@@ -1,0 +1,29 @@
+{
+  "name": "submodulo-juego",
+  "version": "1.0.0",
+  "description": "Submodulo encargado del juego de la Red social",
+  "main": "ServidorJuego.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertogarf91/Submodulo-Red-social-Juego.git"
+  },
+  "keywords": [
+    "cloud",
+    "computing"
+  ],
+  "author": "Alberto Garcia Fuentes",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/albertogarf91/Submodulo-Red-social-Juego/issues"
+  },
+  "scripts": {
+  "test": "mocha"
+  },
+  "homepage": "https://github.com/albertogarf91/Submodulo-Red-social-Juego#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}

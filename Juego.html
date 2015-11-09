@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<body>
+
+
+</body>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Juego</title>
+	</head>
+	<script  type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+	<script  type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
+	<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/1.6.0/math.min.js"</script>
+	-->
+
+	<style>
+	body{
+	margin: 0;
+	overflow: hidden;
+	}
+	#canvas{
+	background:url(fondo2.jpg) no-repeat fixed center;
+	}
+	</style>
+	<body>
+		<form action="javascript:void(0);" onsubmit="javascript:enviar();">
+			¿Cual es el planeta más grande del sistema solar?    
+			<select id="operacion">
+				<option value="Tierra">Tierra</option>
+				<option value="Jupiter">Jupiter</option>
+				<option value="Marte">Marte</option>
+				<option value="Saturno">Saturno</option>
+			</select><br />
+			<input type="submit" value="Aceptar" />
+		</form>
+		<span id="resul"></span>
+
+		<div id="canvas" >
+		</div>
+		<script  type="text/javascript" src="script.js"></script>
+	</body>
+	<script type="text/javascript">
+		var serviceURL = document.URL;
+		function enviar() {
+			var oper = document.getElementById("operacion").value;
+			
+			var url = serviceURL+"/"+oper+"/";
+			var httpRequest = new XMLHttpRequest();
+			httpRequest.onreadystatechange = function() {
+		    	if (httpRequest.readyState === 4){
+		        	var resultado = document.getElementById("resul");
+		        	resultado.innerHTML = httpRequest.responseText;
+		        }
+		    };
+			httpRequest.open("GET", url, true);
+			httpRequest.send(null);
+		}
+	</script>
+</html>
