@@ -1,4 +1,4 @@
-https://travis-ci.org/albertogarf91/Submodulo-Red-social-Juego.svg?branch=master
+[![Build Status](https://travis-ci.org/albertogarf91/Submodulo-Red-social-Juego.svg?branch=master)](https://travis-ci.org/albertogarf91/Submodulo-Red-social-Juego)
 
 
 
