@@ -1,3 +1,7 @@
+https://travis-ci.org/albertogarf91/Submodulo-Red-social-Juego.svg?branch=master
+
+
+
 # Submódulo de la Red Social: Juego
 
 Este proyecto participará en el certamen de proyectos libres de la oficina de Software libre de la Universidad de Granada: [Red Social](https://github.com/albertogarf91/Red-social-ETSIIT). 
