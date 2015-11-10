@@ -25,3 +25,16 @@ WebGL es una especificación estándar que está siendo desarrollada actualmente
 Para las pruebas unitarias se usará Mocha y para la integración continua Travis CI.
 
 Como se trata de desplegar una aplicación en la nube usaremos Azure de Microsoft.
+
+## Modo de ejecución y despliegue
+
+Primero ejecutamos el servidor:
+
+```
+node ServidorJuego.js
+```
+Luego abrimos el navegador y ponermos la siguiente URL:
+
+```
+http://localhost:9999/
+```
