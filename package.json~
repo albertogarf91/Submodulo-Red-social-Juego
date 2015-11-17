@@ -14,9 +14,6 @@
     "cloud",
     "computing"
   ],
-  "directories": {
-    "test": "test"
-  },
   "author": "Alberto Garcia Fuentes",
   "license": "GPL-2.0",
   "bugs": {

@@ -21,7 +21,7 @@ this.calcular = function (operacion) {
 var httpServer = http.createServer(
 	function(request, response) {
 		var uri = url.parse(request.url).pathname;
-		if (uri=="/") uri = "/views/Juego.html";
+		if (uri=="/") uri = "/Juego.html";
 		var fname = path.join(process.cwd(), uri);
 		fs.exists(fname, function(exists) {
 			if (exists) {

@@ -98,7 +98,7 @@
 <span class="hljs-keyword">var</span> httpServer = http.createServer(
 	<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">request, response</span>) </span>{
 		<span class="hljs-keyword">var</span> uri = url.parse(request.url).pathname;
-		<span class="hljs-keyword">if</span> (uri==<span class="hljs-string">"/"</span>) uri = <span class="hljs-string">"/Juego.html"</span>;
+		<span class="hljs-keyword">if</span> (uri==<span class="hljs-string">"/"</span>) uri = <span class="hljs-string">"/views/Juego.html"</span>;
 		<span class="hljs-keyword">var</span> fname = path.join(process.cwd(), uri);
 		fs.exists(fname, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">exists</span>) </span>{
 			<span class="hljs-keyword">if</span> (exists) {

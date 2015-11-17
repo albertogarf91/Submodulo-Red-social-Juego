@@ -146,16 +146,16 @@ pivot sol se utilizar� para girar la tierra alrededor del sol sin tener que ha
             
             <div class="content"><div class='highlight'><pre>pivotTierra = <span class="hljs-keyword">new</span> THREE.Object3D();
 
-fondo = crearAstro(<span class="hljs-number">60</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"Universe.jpg"</span>,<span class="hljs-literal">true</span>,<span class="hljs-literal">false</span>);
+fondo = crearAstro(<span class="hljs-number">60</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"/imagenes/Universe.jpg"</span>,<span class="hljs-literal">true</span>,<span class="hljs-literal">false</span>);
 scene.add(fondo);
- sol = crearAstro(<span class="hljs-number">5</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"sun.gif"</span>,<span class="hljs-literal">true</span>,<span class="hljs-literal">false</span>);
+ sol = crearAstro(<span class="hljs-number">5</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"/imagenes/sun.gif"</span>,<span class="hljs-literal">true</span>,<span class="hljs-literal">false</span>);
  scene.add(sol); 
  sol.add(pivotSol);
- tierra = crearAstro(<span class="hljs-number">2</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"tierra.jpg"</span>,<span class="hljs-literal">false</span>,<span class="hljs-literal">true</span>);
+ tierra = crearAstro(<span class="hljs-number">2</span>,<span class="hljs-number">0</span>,<span class="hljs-string">"/imagenes/tierra.jpg"</span>,<span class="hljs-literal">false</span>,<span class="hljs-literal">true</span>);
  pivotSol.add(tierra);
  pivotSol.add(pivotTierra);
 
- luna = crearAstro(<span class="hljs-number">0.5</span>,<span class="hljs-number">3</span>,<span class="hljs-string">"luna.jpg"</span>,<span class="hljs-literal">false</span>,<span class="hljs-literal">true</span>);
+ luna = crearAstro(<span class="hljs-number">0.5</span>,<span class="hljs-number">3</span>,<span class="hljs-string">"/imagenes/luna.jpg"</span>,<span class="hljs-literal">false</span>,<span class="hljs-literal">true</span>);
  pivotTierra.add(luna);</pre></div></div>
             
         </li>
