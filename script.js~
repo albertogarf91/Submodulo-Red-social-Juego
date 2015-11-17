@@ -44,16 +44,16 @@ pivotSol = new THREE.Object3D();
 //pivot tierra se utiliza para hacer girar a la luna alrededor de la luna sin depender de la rotación de la tierra.
 pivotTierra = new THREE.Object3D();
 
-fondo = crearAstro(60,0,"/imagenes/Universe.jpg",true,false);
+fondo = crearAstro(60,0,"Universe.jpg",true,false);
 scene.add(fondo);
- sol = crearAstro(5,0,"/imagenes/sun.gif",true,false);
+ sol = crearAstro(5,0,"sun.gif",true,false);
  scene.add(sol); 
  sol.add(pivotSol);
- tierra = crearAstro(2,0,"/imagenes/tierra.jpg",false,true);
+ tierra = crearAstro(2,0,"tierra.jpg",false,true);
  pivotSol.add(tierra);
  pivotSol.add(pivotTierra);
 
- luna = crearAstro(0.5,3,"/imagenes/luna.jpg",false,true);
+ luna = crearAstro(0.5,3,"luna.jpg",false,true);
  pivotTierra.add(luna);
 
  
