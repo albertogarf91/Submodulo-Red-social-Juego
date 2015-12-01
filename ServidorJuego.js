@@ -63,5 +63,5 @@ var httpServer = http.createServer(
 		});		
 	}
 );
-httpServer.listen(5000);
+httpServer.listen(5000, "0.0.0.0");
 console.log("Servicio HTTP iniciado");
