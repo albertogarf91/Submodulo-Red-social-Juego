@@ -63,5 +63,5 @@ var httpServer = http.createServer(
 		});		
 	}
 );
-httpServer.listen(5000, "0.0.0.0");
+httpServer.listen(process.env.PORT || 5000, process.env.IP || "0.0.0.0");
 console.log("Servicio HTTP iniciado");
