@@ -38,3 +38,6 @@ Luego abrimos el navegador y ponermos la siguiente URL:
 ```
 http://localhost:9999/
 ```
+
+## Despliegue en PaaS
+La aplicación se despliega en heroku. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
