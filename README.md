@@ -40,4 +40,4 @@ http://localhost:9999/
 ```
 
 ## Despliegue en PaaS
-La aplicación se despliega en heroku. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
+La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es de las más sencillas de manejar además de que sus servicios gratuitos son aceptables. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
