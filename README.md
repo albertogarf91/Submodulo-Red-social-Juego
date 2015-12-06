@@ -28,3 +28,22 @@ Como se trata de desplegar una aplicación en la nube usaremos Azure de Microsof
 
 ## Despliegue en PaaS
 La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es de las más sencillas de manejar además de que sus servicios gratuitos son aceptables. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
+
+
+## Instalación
+
+  * Código
+  ```
+  git clone https://github.com/albertogarf91/Submodulo-Red-social-Juego.git
+  cd Submodulo-Red-social-Juego
+  ```
+
+  * Instalación de dependencias
+  `npm install`
+
+  * Ejecución
+  `npm start`
+
+  Si has hecho lo anterior estará disponible en [localhost](http://localhost:5000/)
+  
+  
