@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Si no habias iniciado sesion ya, necesitaras hacerlos
+heroku login;
+
 #Descargamos el repositorio
 echo 'Descargando repositorio...'
 git clone https://github.com/albertogarf91/Submodulo-Red-social-Juego.git
