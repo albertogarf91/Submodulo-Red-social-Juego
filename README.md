@@ -27,7 +27,34 @@ Para las pruebas unitarias se usará Mocha y para la integración continua Travi
 Como se trata de desplegar una aplicación en la nube usaremos Azure de Microsoft.
 
 ## Despliegue en PaaS
-La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es de las más sencillas de manejar además de que sus servicios gratuitos son aceptables. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
+La plataforma PaaS elegida ha sido Heroku, principalmente debido a su relativa facilidad de uso. La configurción a nivel de despliegue en Heroku es mediante un archivo lamado Procfile, cuya definición en mi caso es con una ejecución del servidor.
+
+[Procfile](https://github.com/albertogarf91/Submodulo-Red-social-Juego/blob/master/Procfile)
+
+Este PaaS soporta Node.js, lenguaje utilizado para la implementación de mi aplicación, esto ha hecho que el archivo de configuración anterior sea simple.
+
+Otro de los motivos de utilización es que heroku dispone de un método de despliegue automático que funciona con repositorios de Github. Para configurarlo solo tenemos que ingresar nuestra cuenta de Github y seleccionar el repositorio del proyecto. A continuación seleccionamos la casilla de esperar a la integración continua antes del despliegue y seleccionar la rama 'master' del repositorio. De esta manera cada vez que se haga un commit en nuestro repositorio del proyecto, se hará la integración continua y se desplegará en heroku de manera automatica.
+
+![img1](https://dl.dropboxusercontent.com/s/fhia7ltkcua1o98/despliegueAutomatico1.png?dl=0)
+
+A continuación veremos el ciclo completo de despliegue del proyecto en un PaaS. Primero se hace un 'commit' en nuestro repositorio y veremos como ese mismo código aparece tanto en la herramienta de CI Travis y en la 'Activity' de Heroku.
+
+[Commit](https://github.com/albertogarf91/Submodulo-Red-social-Juego/commit/7d987ffdabd2c06da05e45d859e41313bafc7585) con el que se hará la prueba.
+
+Github:
+
+![img2](https://dl.dropboxusercontent.com/s/z4f76hlw4b1s4cb/despliegueAutomatico2.png?dl=0)
+
+Travis CI:
+
+![img3](https://dl.dropboxusercontent.com/s/xk30mgmmz7yub1y/despliegueAutomatico3.png?dl=0)
+
+Heroku:
+
+![img4](https://dl.dropboxusercontent.com/s/0kawye2b8taorfg/despliegueAutomatico4.png?dl=0)
+
+
+Vemos como la aplicación ha sido desplegada correctamente en la siguiente URL: [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
 
 
 ## Instalación
