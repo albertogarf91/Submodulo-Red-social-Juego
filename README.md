@@ -26,18 +26,5 @@ Para las pruebas unitarias se usará Mocha y para la integración continua Travi
 
 Como se trata de desplegar una aplicación en la nube usaremos Azure de Microsoft.
 
-## Modo de ejecución y despliegue
-
-Primero ejecutamos el servidor:
-
-```
-node ServidorJuego.js
-```
-Luego abrimos el navegador y ponermos la siguiente URL:
-
-```
-http://localhost:9999/
-```
-
 ## Despliegue en PaaS
 La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es de las más sencillas de manejar además de que sus servicios gratuitos son aceptables. El archivo de configuración de dicho despliegue es el archivo Procfile. Se puede acceder a la aplicación desde la dirección [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
