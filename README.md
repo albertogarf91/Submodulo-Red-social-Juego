@@ -35,6 +35,7 @@ La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es d
   * Código
   ```
   git clone https://github.com/albertogarf91/Submodulo-Red-social-Juego.git
+  
   cd Submodulo-Red-social-Juego
   ```
 
@@ -44,6 +45,6 @@ La aplicación se despliega en heroku. Se ha elegido esta plataforma porque es d
   * Ejecución
   `npm start`
 
-  Si has hecho lo anterior estará disponible en [localhost](http://localhost:5000/)
+  Si has hecho lo anterior estará disponible en [http://localhost:5000/](http://localhost:5000/)
   
   
