@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Si no habias iniciado sesion ya, necesitaras hacerlos
-heroku login;
+heroku login
 
 #Descargamos el repositorio
 echo 'Descargando repositorio...'
