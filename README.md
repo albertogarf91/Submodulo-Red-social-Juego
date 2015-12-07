@@ -37,22 +37,7 @@ Otro de los motivos de utilización es que heroku dispone de un método de despl
 
 ![img1](https://dl.dropboxusercontent.com/s/fhia7ltkcua1o98/despliegueAutomatico1.png?dl=0)
 
-A continuación veremos el ciclo completo de despliegue del proyecto en un PaaS. Primero se hace un 'commit' en nuestro repositorio y veremos como ese mismo código aparece tanto en la herramienta de CI Travis y en la 'Activity' de Heroku.
-
-[Commit](https://github.com/albertogarf91/Submodulo-Red-social-Juego/commit/7d987ffdabd2c06da05e45d859e41313bafc7585) con el que se hará la prueba.
-
-Github:
-
-![img2](https://dl.dropboxusercontent.com/s/z4f76hlw4b1s4cb/despliegueAutomatico2.png?dl=0)
-
-Travis CI:
-
-![img3](https://dl.dropboxusercontent.com/s/xk30mgmmz7yub1y/despliegueAutomatico3.png?dl=0)
-
-Heroku:
-
-![img4](https://dl.dropboxusercontent.com/s/0kawye2b8taorfg/despliegueAutomatico4.png?dl=0)
-
+En el siguiente enlace se puede ver el ciclo completo de despliegue en un PaaS con un [ejemplo](https://github.com/albertogarf91/Submodulo-Red-social-Juego/blob/master/docs/pruebaDespliegue.md).
 
 Vemos como la aplicación ha sido desplegada correctamente en la siguiente URL: [http://juegoetsiit.herokuapp.com/](http://juegoetsiit.herokuapp.com/).
 
