@@ -13,3 +13,4 @@ Travis CI, en la herramienta de integración continua vemos el commit anterior y
 Heroku, en la parte de 'Activity' vemos el mismo commit e indica que ha sido desplegado correctamente:
 
 ![img4](https://dl.dropboxusercontent.com/s/0kawye2b8taorfg/despliegueAutomatico4.png?dl=0)
+
