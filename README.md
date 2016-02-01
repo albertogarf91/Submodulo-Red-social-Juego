@@ -61,6 +61,6 @@ Vemos como la aplicación ha sido desplegada correctamente en la siguiente URL: 
   
 ## Docker
 
-En este [enlace](https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/) está la imagen para el despliegue automático del submódulo de la red social.
+En este [enlace](https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/) está la imagen para el despliegue automático del submódulo de la red social. Es necesario utilizar docker para desplegarlo y luego lanzarlo.
 
 Cabe destacar que ha sido sincronizado con este repositorio para actualizarse automáticamente.
