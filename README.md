@@ -59,5 +59,6 @@ Vemos como la aplicación ha sido desplegada correctamente en la siguiente URL: 
 
   Si has hecho lo anterior estará disponible en [http://localhost:5000/](http://localhost:5000/)
   
-  
-  
+## Docker
+
+En este [enlace](https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/) preparamos el automatic build para que cuando haya cambios en Github se actualice en Docker.
