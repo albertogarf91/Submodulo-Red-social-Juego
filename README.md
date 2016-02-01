@@ -2,7 +2,7 @@
 
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](http://juegoetsiit.herokuapp.com/)
 
-[![Docker](https://dl.dropboxusercontent.com/s/v55niw0mwq5glvm/dockericon_zpswj3ifwrw.PNG?dl=0)(https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/)
+[![Docker](https://dl.dropboxusercontent.com/s/v55niw0mwq5glvm/dockericon_zpswj3ifwrw.PNG?dl=0)](https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/)
 
 # Submódulo de la Red Social: Juego
 
