@@ -71,7 +71,7 @@ Para poner todo el contenedor en funcionamiento en cualquier máquina con Ubuntu
 
 ```
 docker pull albertogarf91/submodulo-red-social-juego
-docker run -i -t -p 5000:5000 albertogarf91/submodulo_red_social_juego /bin/bash
+docker run -i -t -p 5000:5000 albertogarf91/submodulo-red-social-juego /bin/bash
 ```
 Con lo anterior ya tendremos el contenedor en nuestro ordenador y ejecutándose, ahora solo tenemos que iniciar el servidor de la aplicación web:
 
