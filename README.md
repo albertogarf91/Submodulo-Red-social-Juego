@@ -66,3 +66,20 @@ Vemos como la aplicación ha sido desplegada correctamente en la siguiente URL: 
 En este [enlace](https://hub.docker.com/r/albertogarf91/submodulo-red-social-juego/) está la imagen para el despliegue automático del submódulo de la red social. Es necesario utilizar docker para desplegarlo y luego lanzarlo.
 
 Cabe destacar que ha sido sincronizado con este repositorio para actualizarse automáticamente.
+
+Para poner todo el contenedor en funcionamiento en cualquier máquina con Ubuntu se tendrán que realizar los siguientes pasos:
+
+```
+docker pull albertogarf91/submodulo-red-social-juego
+docker run -i -t -p 5000:5000 albertogarf91/submodulo_red_social_juego /bin/bash
+```
+Con lo anterior ya tendremos el contenedor en nuestro ordenador y ejecutándose, ahora solo tenemos que iniciar el servidor de la aplicación web:
+
+```
+cd home/Submodulo-Red-social-Juego/
+npm start
+```
+
+Con lo anterior ya tendremos el programa escuchando en el puerto 5000. A continuación si queremos acceder a nuestra aplicación que se está ejecutandose en la máquina solo tenemos que ejecutar el comando 'ifconfig' (En la consola del ordenador que alberga docker) y poner esa IP y el puerto 5000
+
+En mi caso [http://172.17.42.1:5000/](http://172.17.42.1:5000/). La IP puede cambiar entre diferentes máquinas.
